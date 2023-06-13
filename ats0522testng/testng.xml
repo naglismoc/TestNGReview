@@ -1,0 +1,83 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- runninam dvi klases-->
+<!--<suite name="Suite1" verbose="1" >-->
+<!--    <test name="Nopackage" >-->
+<!--        <classes>-->
+<!--            <class name="TestNgTests" />-->
+<!--            <class name="Tests2" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!-- runninam vienos klases visus metodus isskyrus viena-->
+<!--<suite name="Suite1" verbose="1" >-->
+<!--    <test name="Nopackage" >-->
+<!--        <classes>-->
+<!--            <class name="TestNgTests" >-->
+<!--                    <methods>-->
+<!--                        <exclude name="secondTest"></exclude>-->
+<!--                    </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!-- runninam vienos klases isvardintus testus-->
+<!--<suite name="Suite1" verbose="1" >-->
+<!--    <test name="Nopackage" >-->
+<!--        <classes>-->
+<!--            <class name="TestNgTests" >-->
+<!--                <methods>-->
+<!--                    <include name="firstTest"></include>-->
+<!--                    <include name="secondTest"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!--runnninam testu grupe "positive" is dvieju klasiu-->
+<!--<suite name="Tests2" verbose="1" >-->
+<!--<test name="PositiveTests" >-->
+<!--    <groups>-->
+<!--            <run>-->
+<!--                <include name="positive"/>-->
+<!--            </run>-->
+<!--    </groups>-->
+<!--    <classes>-->
+<!--        <class name="Tests2"/>-->
+<!--        <class name="TestNgTests"/>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->
+
+
+<!--runnninam testu grupe "negative" is dvieju klasiu-->
+<!--<suite name="Tests2" verbose="1" >-->
+<!--<test name="NegativeTests" >-->
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="negative"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+<!--    <classes>-->
+<!--&lt;!&ndash;        <class name="Tests2"/>&ndash;&gt;-->
+<!--        <class name="TestNgTests"/>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->
+
+<!--with parameters. pasiduodam kintamuosius i testus-->
+<!--<suite name="withParameters">-->
+<!--    <parameter name="firstName" value="Naglis"/>-->
+<!--    <parameter name="lastName" value="Mockevicius"/>-->
+<!--        <test name="test1WithParameters" >-->
+<!--            <classes>-->
+<!--                <class name="TestWithParameters" />-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--</suite>-->
